@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+/* @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Liter&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:wght@300;400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+
+
+* {
+  /* margin: 0; */
+  box-sizing: border-box;
+  /* padding: 0; */
+
+}
+
+
+:root {
+
+  --nav-color: #1A0B2E;
+  --containerColor: #11071F;
+  /* --Jakarta-family: "Plus Jakarta Sans", serif; */
+  --hero-family: "Preahvihear";
+
+}
+
+html {
+  font-family: 'Preahvihear';
+
+}
+
+.box-gradient {
+
+  font-family: "Plus Jakarta Sans", serif;
+
+
+  background: linear-gradient(90deg,
+      #130428 7%,
+      /* Red */
+      #251043 34%,
+      /* Orange */
+      #38126D 57%,
+      /* Green */
+      #261045 75%,
+      /* Blue */
+      #190634 100%
+      /* Purple */
+    );
+
+
+}
