@@ -13,7 +13,7 @@ const Hero = () => {
 
                 <img src={arrow} draggable="false" className=' max-[1525px]:hidden absolute top-15 left-[33rem] w-[8rem] select-none' />
                 <p className=' max-[840px]:static absolute   top-20'>Hello! I Am <span className='text-[#7127BA]'> Prateek Rajput</span></p>
-                <p className=' underline max-[840px]:mt-[1rem]'>A Designer who</p>
+                <p className=' underline max-[840px]:mt-[1rem]'>A Devloper who</p>
                 <div className='2xl:text-[3.75rem] xl:text-[3rem]  lg:text-[2.8rem] md:text-[2.5rem]  sm:text-[2rem] relative @max-[360px]:text-[1.5rem] max-[640px]:text-[1.7rem]  '>Judges a book <br className='max-[830px]:hidden max-[480px]:inline inline'></br>
                     by its <span className='text-[#7127BA] '>cover    </span>
                     <img src={circle} draggable="false" className='absolute lg:block hidden top-[6.5rem] left-[10.7rem]  w-[14rem] ' />

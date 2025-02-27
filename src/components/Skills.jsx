@@ -1,5 +1,15 @@
 import React from 'react'
 import sk1 from '../assets/sk1.png'
+import sk2 from '../assets/sk2.png'
+import sk3 from '../assets/sk3.png'
+import sk4 from '../assets/sk4.png'
+import sk5 from '../assets/sk5.png'
+import sk7 from '../assets/sk7.png'
+import sk8 from '../assets/sk8.png'
+import sk9 from '../assets/sk9.png'
+
+
+
 import line1 from '../assets/line1.png'
 import line2 from '../assets/line2.png'
 import line3 from '../assets/line3.png'
@@ -28,30 +38,30 @@ const Skills = () => {
                 <div className='m-auto mt-[5rem] md:mt-[5rem]'>
                     <div className='flex justify-center md:flex-row flex-col  items-center gap-[1rem]'>
                         <div className='w-[4rem] bg-[#251C31] py-[1rem] px-[0.8rem] rounded-full '>
-                            <img src={sk1} className='m-auto' />
+                            <img src={sk9} className='m-auto' />
                         </div>
 
                         <div className='w-[4rem] bg-[#251C31] py-[1rem] px-[0.8rem] rounded-full '>
-                            <img src={sk1} className='m-auto' />
+                            <img src={sk2} className='m-auto' />
                         </div>
 
                         <div className='w-[4rem] bg-[#251C31] py-[1rem] px-[0.8rem] rounded-full '>
-                            <img src={sk1} className='m-auto' />
+                            <img src={sk3} className='m-auto' />
                         </div>
 
                         <div className='w-[4rem] bg-[#251C31] py-[1rem] px-[0.8rem] rounded-full '>
-                            <img src={sk1} className='m-auto' />
+                            <img src={sk4} className='m-auto' />
                         </div>
 
                         <div className='w-[4rem] bg-[#251C31] py-[1rem] px-[0.8rem] rounded-full '>
-                            <img src={sk1} className='m-auto' />
+                            <img src={sk5} className='m-auto' />
                         </div>
                         <div className='w-[4rem] bg-[#251C31] py-[1rem] px-[0.8rem] rounded-full '>
-                            <img src={sk1} className='m-auto' />
+                            <img src={sk7} className='m-auto' />
                         </div>
 
                         <div className='w-[4rem] bg-[#251C31] py-[1rem] px-[0.8rem] rounded-full '>
-                            <img src={sk1} className='m-auto' />
+                            <img src={sk8} className='m-auto' />
                         </div>
                     </div>
 

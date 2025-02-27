@@ -4,6 +4,7 @@ import we1 from '../assets/we1.png'
 import we2 from '../assets/we2.png'
 import we3 from '../assets/we3.png'
 import we4 from '../assets/Icons.png'
+import { experience1, experienceName1 } from '../utils/constant'
 const Experience = () => {
     return (
         <div className='w-full sm:px-[2rem] max-[720px]:flex block  flex-col lg:px-[8rem] xl:px-[16rem] 2xl:px-[20rem] md:px-[6rem] px-[2rem]     relative text-white mt-[8rem] py-[5rem]'>
@@ -19,9 +20,8 @@ const Experience = () => {
                 <div className=' box-gradient z-10   max-[490px]:flex-col  max-[490px]:justify-center  max-[490px]:items-center  max-w-[35rem] flex justify-between items-center border-t-2 border-[#693B93] px-[2rem] py-[1.5rem]  rounded-3xl'>
                     <img src={we1} className=' mr-10  max-[1100px]:size-[6rem]' />
                     <div className='text-white flex  flex-col items-start gap-[1.5rem]'>
-                        <h3 className='text-2xl font-bold'>CIB on the Mobile		</h3>
-                        <p className='text-[0.8rem]'>Take your client onboard seamlessly by our amazing
-                            tool of digital onboard process.
+                        <h3 className='text-2xl font-bold'>{experienceName1}</h3>
+                        <p className='text-[0.8rem]'> {experience1}
                         </p>
                         <button className='bg-[#2C1250] border-2 rounded-3xl max-[400px]:text-[0.8rem] border-[#693B93] px-[1.6rem] py-[0.4rem]'>Learn More</button>
                     </div>
@@ -30,9 +30,8 @@ const Experience = () => {
                 <div className=' box-gradient z-10 max-[490px]:flex-col  max-[490px]:justify-center  max-[490px]:items-center  max-w-[35rem] flex justify-between items-center border-t-2 border-[#693B93] px-[2rem] py-[1.5rem]  rounded-3xl'>
                     <img src={we2} className=' mr-10' />
                     <div className='text-white flex flex-col items-start gap-[1.5rem]'>
-                        <h3 className='text-2xl font-bold'>CIB on the Mobile		</h3>
-                        <p className='text-[0.8rem]'>Take your client onboard seamlessly by our amazing
-                            tool of digital onboard process.
+                        <h3 className='text-2xl font-bold'>{experienceName1}</h3>
+                        <p className='text-[0.8rem]'>{experience1}
                         </p>
                         <button className='bg-[#2C1250] border-2 rounded-3xl border-[#693B93] px-[1.6rem] py-[0.4rem]'>Learn More</button>
                     </div>
@@ -42,9 +41,8 @@ const Experience = () => {
                 <div className=' box-gradient max-[490px]:flex-col  max-[490px]:justify-center  max-[490px]:items-center z-10  max-w-[35rem] flex justify-between items-center border-t-2 border-[#693B93] px-[2rem] py-[1.5rem]  rounded-3xl'>
                     <img src={we3} className=' mr-10' />
                     <div className='text-white flex flex-col items-start gap-[1.5rem]'>
-                        <h3 className='text-2xl font-bold'>CIB on the Mobile		</h3>
-                        <p className='text-[0.8rem]'>Take your client onboard seamlessly by our amazing
-                            tool of digital onboard process.
+                        <h3 className='text-2xl font-bold'>{experienceName1}</h3>
+                        <p className='text-[0.8rem]'>{experience1}
                         </p>
                         <button className='bg-[#2C1250] border-2  rounded-3xl border-[#693B93] px-[1.6rem] py-[0.4rem]'>Learn More</button>
                     </div>
@@ -54,9 +52,8 @@ const Experience = () => {
                 <div className=' box-gradient max-[490px]:flex-col  max-[490px]:justify-center  max-[490px]:items-center z-10  max-w-[35rem] flex justify-between items-center border-t-2 border-[#693B93] px-[2rem] py-[1.5rem] rounded-3xl'>
                     <img src={we4} className=' mr-10' />
                     <div className='text-white flex flex-col items-start gap-[1.5rem]'>
-                        <h3 className='text-2xl font-bold'>CIB on the Mobile		</h3>
-                        <p className='text-[0.8rem]'>Take your client onboard seamlessly by our amazing
-                            tool of digital onboard process.
+                        <h3 className='text-2xl font-bold'>{experienceName1}</h3>
+                        <p className='text-[0.8rem]'>{experience1}
                         </p>
                         <button className='bg-[#2C1250] py-[0.4rem] border-2 rounded-3xl border-[#693B93] px-[1.6rem] '>Learn More</button>
                     </div>
