@@ -9,10 +9,9 @@ const Nav = () => {
             </div>
 
             <ul className='flex justify-between items-center gap-[1rem] sm:gap-[10rem]'>
-                <li ><Link to={'#about'}>About</Link></li>
-                <li><Link to={'#projects'}>Projects</Link></li>
-
-                <li><Link to={'#footer'}>Contact</Link></li>
+                <li ><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#footer">Contact</a></li>
 
             </ul>
 

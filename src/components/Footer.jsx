@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { gmail } from '../utils/constant'
 
 const Footer = () => {
