@@ -1,23 +1,15 @@
-import React from "react";
-import Nav from "./components/Nav";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Experience from "./components/Experience";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Footer from "./components/Footer";
+import React from 'react'
+import { BrowserRouter } from 'react-router'
+import { Routes, Route } from 'react-router'
+import Body from './components/Body'
 const App = () => {
   return (
-    <div className="container overflow-x-hidden max-h-[100vh] font-[var(--hero-family)] max-w-[100vw]  bg-[var(--containerColor)] z-0">
-      <Nav />
-      <Hero />
-      <About />
-      <Experience />
-      <Skills />
-      <Projects />
-      <Footer />
-    </div>
-  );
-};
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Body />}></Route>
+      </Routes>
+    </BrowserRouter>
+  )
+}
 
-export default App;
+export default App

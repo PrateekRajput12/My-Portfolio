@@ -71,7 +71,7 @@ const Projects = () => {
         // </div>
 
         <div
-            className=' w-full flex flex-col gap-[5rem] py-[6.5rem]   sm:px-[4rem] lg:px-[10rem] xl:px-[15rem] 2xl:px-[18rem] md:px-[6rem] px-[2rem]'
+            id='projects' className=' w-full flex flex-col gap-[5rem] py-[6.5rem]   sm:px-[4rem] lg:px-[10rem] xl:px-[15rem] 2xl:px-[18rem] md:px-[6rem] px-[2rem]'
         >
 
             <div className='project-1  xl:flex-row flex-col flex justify-between gap-[1rem] items-center  p-[2rem]'>
